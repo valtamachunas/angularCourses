@@ -1,0 +1,23 @@
+div{
+    margin: 30px 0 5px 2px;
+}
+
+label{
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+input{
+    padding: 5px 5px 2px 2px;
+}
+
+h2{
+    font-family: system-ui;
+}
+
+button{
+    padding: 10px;
+    font-size: 14px;
+    font-family:monospace;
+    font-weight: bold;
+}

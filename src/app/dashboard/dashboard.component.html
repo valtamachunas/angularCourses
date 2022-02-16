@@ -1,0 +1,7 @@
+<h2>Top Cursos</h2>
+<div class="cursos">
+    <a *ngFor="let curso of cursos"
+        routerLink="/detalhes/{{curso.area}}">
+        {{curso.nome}}
+    </a>
+</div>

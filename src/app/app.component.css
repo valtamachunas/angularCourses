@@ -1,0 +1,20 @@
+#app{
+    background: #ede2cd;
+    box-shadow: 0 0 8px 8px #ede2cd;
+    width: 55%;
+}
+
+h1{
+    font-family: -webkit-pictograph;
+}
+
+a{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(85, 79, 79);
+    padding: 2px;
+    text-decoration: none;
+    border: 2px double black;
+    border-radius: 3px;
+    margin: 2px 5px 5px 3px;    
+}

@@ -1,0 +1,10 @@
+<div *ngIf="curso" >
+    <label for="area">Digite a área de interesse: </label>
+    <input id="area" [(ngModel)]="curso.area" placeholder="Área">
+    <h2>{{curso.area | uppercase}} é a área escolhida</h2>
+</div>
+
+<button (click)="voltar()">Voltar</button>
+
+<button (click)="save()">Salvar</button>
+

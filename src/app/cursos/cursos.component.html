@@ -1,0 +1,15 @@
+<ul class="cursos">
+    <li *ngFor="let curso of nomeCursos">
+        <a routerLink="/detalhes/{{curso.area}}">
+        <span class="area">{{curso.nome}}</span>
+    </a>
+    </li>
+  
+</ul>
+
+
+
+
+
+<!-- <app-cursos-detalhes [curso]="selecioneCurso"></app-cursos-detalhes> aqui faz com que esse componente pai
+vincule o componente filho a ele quando clicar no curso, tirei ele daqui agora pois estou criando uma rota só pra ele-->

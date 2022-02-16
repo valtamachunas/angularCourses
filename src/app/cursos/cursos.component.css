@@ -1,0 +1,53 @@
+/* HeroesComponent's private CSS styles */
+.cursos {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 13px;
+    width: 17em;
+  
+  }
+  .cursos li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #ffbfbf;
+    margin: 14px;
+    padding: 41px;
+    height: 2.6em;
+    border-radius: 60px;
+  }
+  .cursos li:hover {
+    color: #2c3a41;
+    background-color: #e6e6e6;
+    left: .1em;
+  }
+  .cursos li.selected {
+    background-color: black;
+    color: white;
+  }
+  .cursos li.selected:hover {
+    background-color: #e2d3d3;
+    color: white;
+  }
+  .cursos li.selected:active {
+    background-color: black;
+    color: white;
+  }
+  .cursos .area {
+    display: inline-block;
+    font-size: 1em;
+    color: white;
+    padding: 1.8em 1.7em 6px 0.7em;
+    background-color: #777496;
+    line-height: 0em;
+    position: relative;
+    left: 30px;
+    top: -11px;
+    height: 1.8em;
+    margin-right: 3.8em;
+    border-radius: 25px 0 25px 0;
+  }
+  
+  input {
+    padding: .5rem;
+  }
